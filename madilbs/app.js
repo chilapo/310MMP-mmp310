@@ -78,6 +78,7 @@ submitButtom.onclick = function() {
 	document.body.appendChild(message4);
     const message5 = document.createElement("p");
 	document.body.appendChild(message5);
+    
      if (adjectiveInput.value) {
 		message.textContent = exclamationInput.value
 							+ " he said "
