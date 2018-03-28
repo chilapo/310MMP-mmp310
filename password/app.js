@@ -16,7 +16,7 @@ const passwordLenghtInput = document.getElementById('lenght');
 
 function generatePassword(){
     let password = "";
-   let lenght = passwordLenghtInput.value;
+    let lenght = passwordLenghtInput.value;
     
     for (let i = 0 ; i < 10 ; i++) {
          password += Math.floor[Math.random() *  alpha.length]
